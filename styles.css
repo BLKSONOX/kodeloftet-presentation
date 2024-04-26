@@ -22,6 +22,7 @@ body {
   grid-template-rows: 100vh;
 }
 
+
 /* Sections */
 section#family{
   background-color: #0E1424;
@@ -33,5 +34,43 @@ section#travels{
   background-color: #141E38;
   display: grid;
   align-items: center;
+
 }
+
+/* Navigation Layout struct */
+
+/* Hide list with align items last first decendant */
+/* Manual sort operations */
+
+
+section#travels ul li, section#travels ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+section#travels ul{
+  display: grid; grid-template-areas: "list-col";
+  width: 100%; height:100%;
+  align-items: center;
+  
+}
+/* one element focus, to later replicate into usable classes list active and hover css shuffle as well as CSS fullscreen content on press, or modal box */
+section#travels ul#steps > li#enter{grid-area: list-col; width: 330px; height: 330px; display: none; background-color: #11192F;}
+section#travels ul#steps > li#enter{ display: block}
+section#travels ul#steps > li#enter > ul#kingdoms{display: none;}
+section#travels ul#steps > li#enter:hover ul#kingdoms{ margin: 0px; display: block; }
+
+section#travels ul#steps > li#enter > ul#kingdoms > li{width: 330px; height: 330px;}
+
+section#travels ul#steps > li#enter > ul#kingdoms >  li:hover { background-color: #FF3939;}
+
+section#travels ul#steps > li#enter > ul#kingdoms >  li > a{  width: 330px; height: 330px; display: none; background-color: #11192F;}
+section#travels ul#steps > li#enter > ul#kingdoms >  li a.hide {display: none;}
+
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active{background-color: #000;}
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active a{display: block; width:100vh; height: 100vh; position: absolute; top:0px;}
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active a::after{content:"test2"; text-align:center;}
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active a::before{ content:"test"; text-align:center; }
+
 
