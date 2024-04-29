@@ -37,6 +37,10 @@ section#travels{
 
 }
 
+/* colours */
+
+
+
 /* Navigation Layout struct */
 
 /* Hide list with align items last first decendant */
@@ -72,18 +76,25 @@ section#travels ul#steps > li#enter > ul#kingdoms > li{width: 330px; height: 330
 section#travels ul#steps > li#enter > ul#kingdoms >  li:hover { background-color: #FF3939;}
 
 section#travels ul#steps > li#enter > ul#kingdoms{}
-section#travels ul#steps > li#enter > ul#kingdoms >  li > a{  width: 330px; height: 330px; display: none; background-color: #11192F;  animation: fadeIn 300ms;  }
+section#travels ul#steps > li#enter > ul#kingdoms >  li > a{  padding-top: 40px; width: 330px; height: 330px; display: none; background-color: #11192F;  animation: fadeIn 300ms;  }
 section#travels ul#steps > li#enter > ul#kingdoms >  li a.hide {display: none;}
 
 /* Animation ghosting box */
 section#travels ul#steps > li#enter > ul#kingdoms >  li:active{background-color: #0A0F1F; pointer-events:  bounding-box;}
 
-section#travels ul#steps > li#enter > ul#kingdoms >  li:active a{display: block; width:100vh; height: 100vh; position: absolute; top:0px; }
-section#travels ul#steps > li#enter > ul#kingdoms >  li:active a:after{content:"test2"; text-align:center;}
-section#travels ul#steps > li#enter > ul#kingdoms >  li:active a:before{ content:"test"; text-align:center; }
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active a{ display: block; text-align: center; width:100vh; height: 100vh; position: absolute; top:0px; }
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active a:after{content:attr(desc);}
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active a:before{ content:attr(alt);}
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active h2{ text-align: left;}
 section#travels ul#steps > li#enter > ul#kingdoms >  li:active h2:hover{ background-color: #000;}
 
+/* Articla grids and template formating */
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active a > article{
+  display: grid;
+  width: 100%;
+  height: 90%;
+  grid-template: "art-image art-title art-subtitle art-body";
 
-section#travels ul#steps > li#enter > ul#kingdoms >  li:active a > article{}
+}
 
 
