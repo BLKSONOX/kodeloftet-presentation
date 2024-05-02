@@ -85,10 +85,12 @@ section#travels ul#steps > li#enter > ul#kingdoms >  li:active{background-color:
 section#travels ul#steps > li#enter > ul#kingdoms >  li:active a{ display: block; text-align: center; width:100vh; height: 100vh; position: absolute; top:0px; }
 section#travels ul#steps > li#enter > ul#kingdoms >  li:active a:after{content:attr(desc);}
 section#travels ul#steps > li#enter > ul#kingdoms >  li:active a:before{ content:attr(alt);}
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active h1{ text-align: left;}
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active h1:hover{ background-color: #000; text-align: left;}
 section#travels ul#steps > li#enter > ul#kingdoms >  li:active h2{ text-align: left;}
 section#travels ul#steps > li#enter > ul#kingdoms >  li:active h2:hover{ background-color: #000;}
 
-/* Articla grids and template formating */
+/* Article grids and template formating */
 section#travels ul#steps > li#enter > ul#kingdoms >  li:active a > article{
   display: grid;
   width: 100%;
@@ -97,9 +99,7 @@ section#travels ul#steps > li#enter > ul#kingdoms >  li:active a > article{
 
 }
 
+/* Add # later experimental take without links */
 
-
-
-
-
-
+/* it ends where it began */
+/* Tables */
