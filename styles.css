@@ -83,6 +83,7 @@ section#travels ul#steps > li#enter > ul#kingdoms >  li a.hide {display: none;}
 section#travels ul#steps > li#enter > ul#kingdoms >  li:active{background-color: #0A0F1F; pointer-events:  bounding-box;}
 
 section#travels ul#steps > li#enter > ul#kingdoms >  li:active a{ display: block; text-align: center; width:100vh; height: 100vh; position: absolute; top:0px; }
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active a img{ display: block; position: unset; width: 500px;}
 section#travels ul#steps > li#enter > ul#kingdoms >  li:active a:after{content:attr(desc);}
 section#travels ul#steps > li#enter > ul#kingdoms >  li:active a:before{ content:attr(alt);}
 section#travels ul#steps > li#enter > ul#kingdoms >  li:active h2{ text-align: left;}
