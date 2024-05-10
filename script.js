@@ -3,15 +3,14 @@
 
 ____ = {
 
-    /* 
-        
-    
+    /*     
+       
         Argument against WEB API's
         everyone uses loading anyways for UI/UX
         and animations
 
     */
-    xhttp: "string",
+    xhttp: new XMLHttpRequest(),
 
     /*       
         Why not just use classes? 
@@ -32,6 +31,13 @@ ____ = {
             return objects of said manipulated template into css class structures
         
         */
+        
+        /* A class inside a class also possible in regular languages, differently */
+        /* Also known as string arrays, string arrays can contain code and pointer addresses */
+        /* use self to escape this scope */
+
+        _(){ return self.window.____.xhttp },
+        
         subobject_: function (){
             
             /* here goes private objects inside local functions scope */
@@ -40,12 +46,12 @@ ____ = {
             obj = { newobjects: "new objects"}
 
             /* here goes for loop to manipulate new objects that's not static */
-
             return( {nest: "object functions nesting" + obj} )
         },
         subobject: {
             text: "text"
-        }
+        },
+
         
     }
 
@@ -53,6 +59,6 @@ ____ = {
     
 }
 
-console.log(____.extractCSSTemplate.subobject_().nest.obj)
+console.log(____.extractCSSTemplate._())
 
 /* add return nesting, allows for private and public chain link class constructors */
