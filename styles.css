@@ -96,7 +96,7 @@ section#travels ul#steps > li#enter > ul#kingdoms >  li:active a > article{
   display: grid;
   width: 100%;
   height: 90%;
-  grid-template: [main-top] "art-image art-title art-subtitle art-body" [main-bottom];
+  grid-template:  "art-image art-title art-subtitle art-body";
 
 }
 
