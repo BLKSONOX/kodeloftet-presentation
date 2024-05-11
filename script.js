@@ -4,6 +4,8 @@
     looks like a C program
 
     Mimicks C object model with functions wrapped within objects
+    interfaces are either models of a class, or the wrapper around a class
+    two ways
     
 */
 
