@@ -83,13 +83,19 @@ ____ = {
     */
     models: {
 
-        m: self.window.____.exec._()
+        /* Standard formating */
+        /* mutatet exec */
+        /* compressed programming, rock solid programming */
+
+        m: self.window.____.exec._ /* function call optional */
+
+
 
     },
 
     documents:{
 
-         
+         /* Standard formating */
 
     },
 
