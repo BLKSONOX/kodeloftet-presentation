@@ -84,14 +84,19 @@ ____ = {
     /* 
         just use JSON files HTML attributes are as old as HTML can be anything
     */
-    models: {
+    models: { _(){
+
 
         /* Standard formating */
         /* mutatet exec */
         /* compressed programming, rock solid programming */
 
-       /* m: self.window.____.exec._,  function call optional */
+        /* property and functions mutations */
+        m = self.window.____.exec;
+        
+        return m._
 
+        },
     },
 
     documents:{ _(){
@@ -134,6 +139,7 @@ console.log(____.documents._());
 /* From here events and callback loops are very straight forward */
 
 /* 
+    
     Look up the program would look exactly like an object oriented C program 
     C is as loosleey typed as Javascript in its nature
     pointers, functions, pointer arrays, nested functions, similar scope structures
