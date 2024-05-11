@@ -6,7 +6,11 @@
     Mimicks C object model with functions wrapped within objects
     interfaces are either models of a class, or the wrapper around a class
     two ways
-    
+
+    use constant to declare interfaces as models, different Object oriented pattern
+    not covered here
+
+    Author Bendikt Martin Myklebust, 24.02.1987
 */
 
 ____ = {
