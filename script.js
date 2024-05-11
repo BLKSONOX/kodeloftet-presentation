@@ -117,6 +117,8 @@ ____ = {
         d = self.window.____.exec;
         return d._
 
+
+
         },
     },
 
@@ -166,6 +168,9 @@ console.log(____.documents._());
     how interfaces are made, this approch declares the whole structure as interfaces
     and is C friendly
 
-    a private function would be an anonoymous function within the struct
+    a private function would be an anonoymous function within the struct and method
+    binding to the object tree declared visible or not, where event loops and call back functions tend to get called
+
+    same as C
 
 */
