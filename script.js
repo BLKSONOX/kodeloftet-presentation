@@ -10,6 +10,8 @@
     use constant to declare interfaces as models, different Object oriented pattern
     not covered here
 
+    bind method usually used to extend
+
     Author Bendikt Martin Myklebust, 24.02.1987
 */
 
