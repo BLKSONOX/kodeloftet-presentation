@@ -93,9 +93,11 @@ ____ = {
         /* mutatet exec */
         /* compressed programming, rock solid programming */
 
-        /* property and functions mutations */
+        /* 
+            property and functions mutations, also known as constructor 
+            which makes the whole defining the constructors more akin to how API's are really designed at the fundemental levels
+        */
         m = self.window.____.exec;
-        
         return m._
 
         },
@@ -108,9 +110,11 @@ ____ = {
         /* mutatet exec */
         /* compressed programming, rock solid programming */
 
-        /* property and functions mutations */
+        /* 
+            property and functions mutations, also known as constructor 
+            which makes the whole defining the constructors more akin to how API's are really designed at the fundemental levels
+        */
         d = self.window.____.exec;
-        
         return d._
 
         },
@@ -148,5 +152,18 @@ console.log(____.documents._());
     basically the same with syntax variation
 
     escaping and entering scopes would be pointer manipulation
+
+    this JS document:
+
+    <object>
+    |   <constructor>(property)
+            <function>
+            <struct>(property)
+                <function>
+        <struct>(property)
+            <function>
+
+    how interfaces are made, this approch declares the whole structure as interfaces
+    and is C friendly
 
 */
