@@ -160,6 +160,7 @@ console.log(____.documents._());
     basically the same with syntax variation
 
     escaping and entering scopes would be pointer manipulation
+    with struct and bind manipulations
 
     this JS document:
 
@@ -168,6 +169,7 @@ console.log(____.documents._());
             <function>
             <struct>(property)
                 <function>
+            <struct>(property)
         <struct>(property)
             <function>
 
