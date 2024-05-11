@@ -106,8 +106,7 @@ ____ = {
         
         return d._
 
-        }
-        ,
+        },
     },
 
     /* 
@@ -118,6 +117,9 @@ ____ = {
         kinda like the economy
 
         to do afterwards, it's all colours and none colours outside of
+       
+        in C this would be the direct memory addresses
+        or even device hex stream addresses of said chip
 
     */
     hexStream:{
@@ -130,3 +132,11 @@ console.log(____.documents._());
 
 /* add return nesting, allows for private and public chain link class constructors */
 /* From here events and callback loops are very straight forward */
+
+/* 
+    Look up the program would look exactly like an object oriented C program 
+    C is as loosleey typed as Javascript in its nature
+    pointers, functions, pointer arrays, nested functions, similar scope structures
+    basically the same with syntax variation
+    
+*/
