@@ -2,6 +2,8 @@
     
     A JavaScript class outside of webstandards conventions
     looks like a C program
+
+    Mimicks C object model with functions wrapped within objects
     
 */
 
@@ -67,6 +69,7 @@ ____ = {
             obj = { newobjects: "new objects"}
 
             /* here goes for loop to manipulate new objects that's not static */
+            /* in C this would be a type array with string arrays */
             return( {nest: "object functions nesting" + obj} )
 
             /* Event rotational objects and functions */
@@ -87,20 +90,24 @@ ____ = {
         /* mutatet exec */
         /* compressed programming, rock solid programming */
 
-        m: self.window.____.exec._ /* function call optional */
-
-
+       /* m: self.window.____.exec._,  function call optional */
 
     },
 
-    documents:{
+    documents:{ _(){
+
 
         /* Standard formating */
         /* mutatet exec */
         /* compressed programming, rock solid programming */
 
-        d: self.window.____.exec._ /* function call optional */
+        /* property and functions mutations */
+        d = self.window.____.exec;
+        
+        return d._
 
+        }
+        ,
     },
 
     /* 
@@ -119,8 +126,7 @@ ____ = {
     
 }
 
-console.log(____.exec._());
-console.log(window);
+console.log(____.documents._());
 
 /* add return nesting, allows for private and public chain link class constructors */
 /* From here events and callback loops are very straight forward */
