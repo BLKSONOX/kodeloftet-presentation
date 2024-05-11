@@ -168,7 +168,7 @@ console.log(____.documents._());
     how interfaces are made, this approch declares the whole structure as interfaces
     and is C friendly
 
-    a private function would be an anonoymous function within the struct and method
+    a private function would be an anonoymous or named function within the struct and method
     binding to the object tree declared visible or not, where event loops and call back functions tend to get called
 
     same as C
