@@ -138,5 +138,7 @@ console.log(____.documents._());
     C is as loosleey typed as Javascript in its nature
     pointers, functions, pointer arrays, nested functions, similar scope structures
     basically the same with syntax variation
-    
+
+    escaping and entering scopes would be pointer manipulation
+
 */
