@@ -95,7 +95,11 @@ ____ = {
 
     documents:{
 
-         /* Standard formating */
+        /* Standard formating */
+        /* mutatet exec */
+        /* compressed programming, rock solid programming */
+
+        d: self.window.____.exec._ /* function call optional */
 
     },
 
