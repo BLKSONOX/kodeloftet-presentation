@@ -256,4 +256,12 @@ console.log(____.documents._());
     even lower level Go
     https://go.dev/doc/tutorial/web-service-gin
 
+    and objective-c which is not c++, but howerver is similar
+    https://en.wikipedia.org/wiki/Objective-C
+
+    same with new Swift
+    https://developer.apple.com/swift/
+
+    which is a mix of its own thing and JavaScript clone
+
     */
