@@ -38,6 +38,10 @@ ____ = {
     */
 
     
+    /* why not objects? binding tree unsets */
+    bindingTree: new Array,
+
+    
 
     exec: {
         /* 
