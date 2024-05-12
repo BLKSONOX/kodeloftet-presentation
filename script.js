@@ -14,13 +14,23 @@
 
     Author Bendikt Martin Myklebust 
 
-*/
 
-  /* 
-   
+    ------------------------------------------------------------------------------------
+
+    Addiational resources and thoughts:
+
     A struct, is a class type object structure from 1968  
     ALGOL 68 language which C is derrived from 
     https://en.wikipedia.org/wiki/Struct_(C_programming_language)
+
+    pointer chains and struct chains behave similarly slightly different
+    https://en.wikipedia.org/wiki/Pointer_(computer_programming)
+
+    writing ones own JavScript language spesific engine is alignment and transfer of
+    according to standards
+
+    https://tc39.es/ecma262/
+
 
   */
 
