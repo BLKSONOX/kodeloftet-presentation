@@ -40,6 +40,16 @@
     Same with PhP
     https://www.php.net/manual/en/language.types.object.php
 
+    Same with Ruby
+    http://ruby-doc.com/docs/ProgrammingRuby/html/tut_classes.html
+
+    Same with Perl
+    https://perldoc.perl.org/perlootut#Object
+
+    Same with Haskell
+    https://www.haskell.org/tutorial/monads.html
+
+
 
   */
 
