@@ -34,6 +34,12 @@
     a JavaScript clone is loosely typed according to function and API behaviour of the language itself
     programming languages aren't just the API's
 
+    Python object orientation functions in exactly the same way
+    https://docs.python.org/3.12/library/collections.abc.html
+
+    Same with PhP
+    https://www.php.net/manual/en/language.types.object.php
+
 
   */
 
