@@ -31,6 +31,8 @@
 
     https://tc39.es/ecma262/
 
+    a JavaScript clone is loosely typed according to function and API behaviour of the language itself
+
 
   */
 
