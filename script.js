@@ -256,7 +256,7 @@ console.log(____.documents._());
     even lower level Go
     https://go.dev/doc/tutorial/web-service-gin
 
-    and objective-c which is not c++, but howerver is similar
+    and objective-c which is not c++, but however is similar
     https://en.wikipedia.org/wiki/Objective-C
 
     same with new Swift
