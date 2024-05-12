@@ -245,3 +245,5 @@ console.log(____.documents._());
 
     Same with Haskell
     https://www.haskell.org/tutorial/monads.html
+
+    things may be written in C++ but language derriving is directly from C
