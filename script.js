@@ -65,8 +65,6 @@ z
         */
         
         /* A JS class inside a JS class also possible in regular languages, differently */
-        /* Also known as string arrays, string arrays can contain code and pointer addresses */
-        /* use self to escape this scope */
 
         _(){ 
             
