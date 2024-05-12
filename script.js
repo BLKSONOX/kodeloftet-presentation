@@ -38,7 +38,7 @@ ____ = {
     */
 
     
-    /* why not objects? binding tree unsets */
+    /* why not objects? binding tree unsets, just like C */
     bindingTree: new Array,
 
     
