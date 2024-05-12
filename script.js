@@ -17,7 +17,12 @@
 
   */
 
-/* A struct defined as a variable  same as C allowed special character types in JavaScript clones _ and $ */
+/* 
+
+    A struct defined as a variable  same as C 
+    Additional note; allowed special character types in JavaScript clones _ and $ 
+
+*/
 
 ____ = {
 
