@@ -227,6 +227,9 @@ console.log(____.documents._());
     a private function would be an anonoymous or named function within the struct and method
     binding to the object tree declared visible or not, where event loops and call back functions tend to get called
 
-    same as C, basically JavaScript is C if followed properly according to standards
+    same as C, basically JavaScript is C if followed properly according to standards, all the additional functions and classes one would otherwise create for most
+    C project on repeat
+
+    added as its own language
 
 */
