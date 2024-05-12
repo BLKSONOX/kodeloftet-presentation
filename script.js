@@ -56,7 +56,7 @@ ____ = {
     /* A struct within a struct that type can be arrays in C which is objects in JavaScript */
     exec: {
         /* 
-            
+z            
             use elements array as search table within the stylesheet
             clone style properties add traverse options for "child elements"
 
@@ -268,8 +268,13 @@ console.log(____.documents._());
 
     same with new Swift
     https://developer.apple.com/swift/
-
     which is a mix of its own thing and JavaScript clone
+
+    similarly with rust
+    https://doc.rust-lang.org/book/ch05-02-example-structs.html
+
+    and with ziglang
+    https://ziglang.org
 
     all the same with Java which also has more of a sibling connection to C++ in regards to C
 
