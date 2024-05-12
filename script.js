@@ -91,6 +91,7 @@ ____ = {
 
             /* here goes for loop to manipulate new objects that's not static */
             /* in C this would be a type array with string arrays */
+            /* create private objects in C make it not return */
             return( {nest: "object functions nesting" + obj} )
 
             /* Event rotational objects and functions */
