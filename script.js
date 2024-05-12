@@ -49,6 +49,9 @@ ____ = {
     docs: {0:"html", 1:"css"},
 
     /*       
+        
+        Web standards spesific note
+
         Why not just use CSS classes? 
         the identifiers are there for a reason, classes is generative
 
