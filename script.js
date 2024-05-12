@@ -12,7 +12,8 @@
 
     bind method usually used to extend
 
-    Author Bendikt Martin Myklebust, 24.02.1987
+    Author Bendikt Martin Myklebust 
+
 */
 
 ____ = {
@@ -104,9 +105,18 @@ ____ = {
             which makes the whole defining the constructors more akin to how API's are really designed at the fundemental levels
         */
         m = self.window.____.exec;
+        /* bind or change said function, both possible also in C */
         return m._
 
+        /* private functions */
+        /* escape scope with self */
+
+        /* access local scope with this */
+        /* models.newProperty._() */
+
         },
+
+        /* public functions */
     },
 
     documents:{ _(){
@@ -121,11 +131,18 @@ ____ = {
             which makes the whole defining the constructors more akin to how API's are really designed at the fundemental levels
         */
         d = self.window.____.exec;
+        /* bind or change said function, both possible also in C */
         return d._
 
+        /* private functions */
+        /* escape scope with self */
 
+        /* access local scope with this */
+        /* documents.newProperty._() */
 
         },
+
+        /* public functions */
     },
 
     /* 
@@ -148,6 +165,7 @@ ____ = {
 }
 
 console.log(____.documents._());
+console.log()
 
 /* add return nesting, allows for private and public chain link class constructors */
 /* From here events and callback loops are very straight forward */

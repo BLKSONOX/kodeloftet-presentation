@@ -96,11 +96,8 @@ section#travels ul#steps > li#enter > ul#kingdoms >  li:active a > article{
   display: grid;
   width: 100%;
   height: 90%;
-  grid-template:  "art-image art-title art-subtitle art-body";
+
 
 }
 
 /* Add # later, experimental take without links */
-
-/* it ends where it began */
-/* Tables */
