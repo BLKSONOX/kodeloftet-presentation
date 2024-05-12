@@ -16,7 +16,7 @@
 
 */
 
-  /* A struct  */
+  /* A struct, is a class type object structure from 1968 */
 
 ____ = {
 
