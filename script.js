@@ -177,7 +177,7 @@ console.log(____.documents._());
     
     Look up the program would look exactly like an object oriented C program 
     C is as loosleey typed as Javascript in its nature
-    pointers, functions, pointer arrays, nested functions, similar scope structures
+    pointers, structs, functions, pointer arrays, nested functions, similar scope structures
     basically the same with syntax variation
 
     escaping and entering scopes would be pointer manipulation
