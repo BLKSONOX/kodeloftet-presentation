@@ -16,6 +16,8 @@
 
 */
 
+  /* A struct  */
+
 ____ = {
 
     /*     
@@ -38,11 +40,11 @@ ____ = {
     */
 
     
-    /* why not objects? binding tree unsets, just like C */
+    /* why not objects? binding tree unsets, just like C, two types of arrays in C [] and {} */
     bindingTree: new Array,
 
     
-
+    /* A struct within a struct that type can be arrays in C which is objects in JabvScript */
     exec: {
         /* 
             
