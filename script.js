@@ -226,7 +226,7 @@ console.log(____.documents._());
 
     ------------------------------------------------------------------------------------
 
-    Addiational resources and thoughts:
+    Additional resources and thoughts:
 
     A struct, is a class type object structure from 1968  
     ALGOL 68 language which C is derrived from 
