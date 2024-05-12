@@ -165,7 +165,6 @@ ____ = {
 }
 
 console.log(____.documents._());
-console.log()
 
 /* add return nesting, allows for private and public chain link class constructors */
 /* From here events and callback loops are very straight forward */
