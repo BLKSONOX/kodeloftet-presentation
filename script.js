@@ -48,7 +48,7 @@ ____ = {
     bindingTree: new Array,
 
     
-    /* A struct within a struct that type can be arrays in C which is objects in JabvScript */
+    /* A struct within a struct that type can be arrays in C which is objects in JavaScript */
     exec: {
         /* 
             
