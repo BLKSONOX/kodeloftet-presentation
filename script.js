@@ -15,42 +15,6 @@
     Author Bendikt Martin Myklebust 
 
 
-    ------------------------------------------------------------------------------------
-
-    Addiational resources and thoughts:
-
-    A struct, is a class type object structure from 1968  
-    ALGOL 68 language which C is derrived from 
-    https://en.wikipedia.org/wiki/Struct_(C_programming_language)
-
-    pointer chains and struct chains behave similarly slightly different
-    https://en.wikipedia.org/wiki/Pointer_(computer_programming)
-
-    writing ones own JavScript language spesific engine is alignment and transfer of
-    according to standards
-
-    https://tc39.es/ecma262/
-
-    a JavaScript clone is loosely typed according to function and API behaviour of the language itself
-    programming languages aren't just the API's
-
-    Python object orientation functions in exactly the same way
-    https://docs.python.org/3.12/library/collections.abc.html
-
-    Same with PhP
-    https://www.php.net/manual/en/language.types.object.php
-
-    Same with Ruby
-    http://ruby-doc.com/docs/ProgrammingRuby/html/tut_classes.html
-
-    Same with Perl
-    https://perldoc.perl.org/perlootut#Object
-
-    Same with Haskell
-    https://www.haskell.org/tutorial/monads.html
-
-
-
   */
 
 /* A struct defined as a variable  same as C allowed special character types in JavaScript clones _ and $ */
@@ -248,4 +212,36 @@ console.log(____.documents._());
 
     added as its own language
 
-*/
+    ------------------------------------------------------------------------------------
+
+    Addiational resources and thoughts:
+
+    A struct, is a class type object structure from 1968  
+    ALGOL 68 language which C is derrived from 
+    https://en.wikipedia.org/wiki/Struct_(C_programming_language)
+
+    pointer chains and struct chains behave similarly slightly different
+    https://en.wikipedia.org/wiki/Pointer_(computer_programming)
+
+    writing ones own JavScript language spesific engine is alignment and transfer of
+    according to standards
+
+    https://tc39.es/ecma262/
+
+    a JavaScript clone is loosely typed according to function and API behaviour of the language itself
+    programming languages aren't just the API's
+
+    Python object orientation functions in exactly the same way
+    https://docs.python.org/3.12/library/collections.abc.html
+
+    Same with PhP
+    https://www.php.net/manual/en/language.types.object.php
+
+    Same with Ruby
+    http://ruby-doc.com/docs/ProgrammingRuby/html/tut_classes.html
+
+    Same with Perl
+    https://perldoc.perl.org/perlootut#Object
+
+    Same with Haskell
+    https://www.haskell.org/tutorial/monads.html
