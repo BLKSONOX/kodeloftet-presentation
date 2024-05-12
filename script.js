@@ -175,7 +175,10 @@ ____ = {
 
     */
     hexStream:{
-
+        /* 
+            assemblers 0x7771 this address means something, assembly of that address is just signal and pointers similarly to C itself
+            in JavaScript it's both undefined functions and prototype functions
+         */
     },
     
 }
