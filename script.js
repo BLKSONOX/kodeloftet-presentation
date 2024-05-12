@@ -18,7 +18,8 @@
 
   /* 
    
-    A struct, is a class type object structure from 1968  ALGOL 68 language which C is derrived from 
+    A struct, is a class type object structure from 1968  
+    ALGOL 68 language which C is derrived from 
     https://en.wikipedia.org/wiki/Struct_(C_programming_language)
 
   */
