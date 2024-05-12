@@ -228,7 +228,7 @@ console.log(____.documents._());
     binding to the object tree declared visible or not, where event loops and call back functions tend to get called
 
     same as C, basically JavaScript is C if followed properly according to standards, all the additional functions and classes one would otherwise create for most
-    C project on repeat
+    C project on repeat, with minimal variation of syntax and dialect
 
     added as its own language
 
