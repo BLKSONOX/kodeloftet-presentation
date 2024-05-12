@@ -105,10 +105,11 @@ z
     },
 
     /* 
-        just use JSON files HTML attributes are as old as HTML can be anything
+        Substruct Example, loosley typed
     */
-    models: { _(){
-
+    models: { 
+        
+        _(){
 
         /* Standard formating */
         /* mutatet exec */
@@ -130,7 +131,42 @@ z
 
         },
 
-        /* public functions */
+        /* public functions, getters and setter */
+
+        importModels: function( _type ){
+            switch(_type){
+                case "data":
+                    return "this is a data import";
+                    break;
+                case "document":
+                    return "this is a document model import";
+                    break;
+            }
+        },
+        exportModels: function(){
+
+        },
+
+    },
+
+    
+    /* 
+        property direct function, with substruct, strictly typed, locked scopes, also similar to C
+        also a private function
+    */
+    models2: function(){
+
+        substruct: {
+            function a(){
+                substruct_: {
+                    function b(){
+
+                    }
+                }
+            }
+        }
+
+
     },
 
     documents:{ _(){
@@ -186,6 +222,9 @@ z
 }
 
 console.log(____.documents._());
+console.log( ____.exec.subobject_() );
+console.log(____.models.importModels( "data" ) );
+console.log(____.models2());
 
 /* add return nesting, allows for private and public chain link class constructors */
 /* From here events and callback loops are very straight forward */
