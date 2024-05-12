@@ -34,6 +34,8 @@
 
   */
 
+/* A struct defined as a variable  same as C */
+
 ____ = {
 
     /*     
