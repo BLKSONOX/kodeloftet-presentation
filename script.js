@@ -88,15 +88,28 @@ z
             /* here goes private objects inside local functions scope */
             /* Private object nest until code ran and returned */
             eventObject = {}
+
+            /* Public */
+            /* 
+                eventObject = {} 
+                return eventObject
+            */
+
+            /* Private */
             obj = { newobjects: "new objects"}
 
             /* here goes for loop to manipulate new objects that's not static */
             /* in C this would be a type array with string arrays */
             /* create private objects in C make it not return as behavoir if called  outside of assigned scope */
+
+            /* Static */
             return( {nest: "object functions nesting" + obj} )
+
+            /* How am operating system kernel is made, and how it's routed */
 
             /* Event rotational objects and functions */
         },
+        
         subobject: {
             text: "text"
         },
