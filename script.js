@@ -89,8 +89,7 @@ ____ = {
             /* Private object nest until code ran and returned */
             eventObject = {}
 
-            /* Public */
-            /* 
+            /* Public 
                 eventObject = {} 
                 return eventObject
             */
@@ -106,7 +105,6 @@ ____ = {
             return( {nest: "object functions nesting" + obj} )
 
             /* How an operating system kernel is made, and how it's routed */
-
             /* Event rotational objects and functions */
 
 
@@ -332,3 +330,5 @@ console.log(____.models.importModels( "data" ) );
     all the same with Java which also has more of a sibling connection to C++ in regards to C
 
     */
+
+    /* new text  */
