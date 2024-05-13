@@ -149,7 +149,6 @@ z
 
     },
 
-    
     /* 
         property direct function, with substruct, strictly typed, locked scopes, also similar to C
         also a private function
@@ -221,9 +220,19 @@ z
     
 }
 
+/*
+     what's not covered is prototype approach however you can write it out as prototypes 
+
+     how a prototype is declared
+     mainObject.SubObject = function(){
+
+     }
+     
+*/
+
 console.log(____.documents._());
-console.log( ____.exec.subobject_() );
-console.log(____.models.importModels( "data" ) );
+console.log(____.exec.subobject_());
+console.log(____.models.importModels( "data" ));
 console.log(____.models2());
 
 /* add return nesting, allows for private and public chain link class constructors */
