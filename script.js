@@ -127,7 +127,6 @@ z
         /* escape scope with self */
 
         /* access local scope with this */
-        /* models.newProperty._() */
 
         },
 
