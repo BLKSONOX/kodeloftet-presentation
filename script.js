@@ -105,7 +105,7 @@ ____ = {
             /* Static */
             return( {nest: "object functions nesting" + obj} )
 
-            /* How am operating system kernel is made, and how it's routed */
+            /* How an operating system kernel is made, and how it's routed */
 
             /* Event rotational objects and functions */
 
@@ -118,6 +118,8 @@ ____ = {
 
         
     },
+
+
 
     /* 
         Substruct Ecample, loosley typed
