@@ -56,7 +56,7 @@ ____ = {
     /* A struct within a struct that type can be arrays in C which is objects in JavaScript */
     exec: {
         /* 
-z            
+           
             use elements array as search table within the stylesheet
             clone style properties add traverse options for "child elements"
 
@@ -108,6 +108,8 @@ z
             /* How am operating system kernel is made, and how it's routed */
 
             /* Event rotational objects and functions */
+
+
         },
         
         subobject: {
@@ -118,7 +120,7 @@ z
     },
 
     /* 
-        Substruct Example, loosley typed
+        Substruct Ecample, loosley typed
     */
     models: { 
         
@@ -140,6 +142,7 @@ z
         /* escape scope with self */
 
         /* access local scope with this */
+        /* models.newProperty._() */
 
         },
 
@@ -161,14 +164,14 @@ z
 
     },
 
+    
     /* 
         property direct function, with substruct, strictly typed, locked scopes, also similar to C
-        also a private function
     */
     models2: function(){
 
         substruct: {
-            function a(){
+            function a (){
                 substruct_: {
                     function b(){
 
@@ -227,25 +230,14 @@ z
             add the address or find it
             depending on the JavaScript engine, this is where event calls and call backs happens
 
+            this section is the equivlent to top
+
          */
     },
     
 }
-
-/*
-     what's not covered is prototype approach however you can write it out as prototypes 
-
-     how a prototype is declared
-     mainObject.SubObject = function(){
-
-     }
-     
-*/
-
-console.log(____.documents._());
-console.log(____.exec.subobject_());
-console.log(____.models.importModels( "data" ));
-console.log(____.models2());
+console.log( ____.exec.subobject_() );
+console.log(____.models.importModels( "data" ) );
 
 /* add return nesting, allows for private and public chain link class constructors */
 /* From here events and callback loops are very straight forward */
@@ -282,6 +274,7 @@ console.log(____.models2());
 
     added as its own language
 
+    
     ------------------------------------------------------------------------------------
 
     Additional resources and thoughts:
