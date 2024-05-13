@@ -96,10 +96,10 @@ z
             /* This is where address behaviour even in JavaScript is useful */
 
             return( {nest: "object functions nesting" + obj} )
-
-             /* How am operating system kernel is made, and how it's routed */
-
             /* Event rotational objects and functions */
+
+            /* How am operating system kernel is made, and how it's routed */
+
         },
         subobject: {
             text: "text"
