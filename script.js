@@ -93,7 +93,11 @@ z
             /* here goes for loop to manipulate new objects that's not static */
             /* in C this would be a type array with string arrays */
             /* create private objects in C make it not return as behavoir if called  outside of assigned scope */
+            /* This is where address behaviour even in JavaScript is useful */
+
             return( {nest: "object functions nesting" + obj} )
+
+             /* How am operating system kernel is made, and how it's routed */
 
             /* Event rotational objects and functions */
         },
@@ -105,10 +109,11 @@ z
     },
 
     /* 
-        just use JSON files HTML attributes are as old as HTML can be anything
+        Substruct Ecample, loosley typed
     */
-    models: { _(){
-
+    models: { 
+        
+        _(){
 
         /* Standard formating */
         /* mutatet exec */
@@ -130,7 +135,41 @@ z
 
         },
 
-        /* public functions */
+        /* public functions, getters and setter */
+
+        importModels: function( _type ){
+            switch(_type){
+                case "data":
+                    return "this is a data import";
+                    break;
+                case "document":
+                    return "this is a document model import";
+                    break;
+            }
+        },
+        exportModels: function(){
+
+        },
+
+    },
+
+    
+    /* 
+        property direct function, with substruct, strictly typed, locked scopes, also similar to C
+    */
+    models2: function(){
+
+        substruct: {
+            function a (){
+                substruct_: {
+                    function b(){
+
+                    }
+                }
+            }
+        }
+
+
     },
 
     documents:{ _(){
@@ -180,12 +219,14 @@ z
             add the address or find it
             depending on the JavaScript engine, this is where event calls and call backs happens
 
+            this section is the equivlent to top
+
          */
     },
     
 }
-
-console.log(____.documents._());
+console.log( ____.exec.subobject_() );
+console.log(____.models.importModels( "data" ) );
 
 /* add return nesting, allows for private and public chain link class constructors */
 /* From here events and callback loops are very straight forward */
@@ -222,6 +263,7 @@ console.log(____.documents._());
 
     added as its own language
 
+    
     ------------------------------------------------------------------------------------
 
     Additional resources and thoughts:
