@@ -98,7 +98,7 @@ ____ = {
             return( {nest: "object functions nesting" + obj} )
             /* Event rotational objects and functions */
 
-            /* How am operating system kernel is made, and how it's routed */
+            /* How an operating system kernel is made, and how it's routed */
 
         },
         subobject: {
