@@ -126,7 +126,7 @@ ____ = {
                 usually through special characters expression |*@£$$€{}
                 tied to keyboard mappings
 
-                a kernels test drive on a hardware is;z
+                a kernels test drive on a hardware is
                 run as many mapped special character channels multiplied also known as threads
                 why special characters are reserved in programming languages CPU profiling
                 this is what became the ISO standards, later unicode
@@ -142,7 +142,6 @@ ____ = {
                 which means you can prototype an operating system in the browser these days
 
                 and with browser pass keys you can store them on USB sticks with key, plug and play
-
                 however that's slightly lazy, how many layers of unicode can we ship?
                 
             */
@@ -290,6 +289,45 @@ ____ = {
 
 
          */
+
+        _(){
+
+        },
+
+        gen: function( _expression ){
+
+            /* numerals, literals, decimals */
+            /* 
+                16 Bit colormap system also known as Hexadeciaml: 0123456789ABCDEF
+                Octal used to expand map
+
+                [fixed system] [octal] [moddified map]
+
+                Octal assignment bridge of new map
+
+                channels assignment
+
+                Octal, Decimal, Hexidecimal
+
+                RGB channels, can add and have more cuncurrent channel spaces
+                also sub channels
+
+                how TTY channels are made i suspect
+
+                makes it possible to create true color space on 16bit systems
+
+                also possible to ignore the octal system just focus on channels and remove the fixed maps
+                and just let it be auto generated through time
+
+                00
+
+                XYZ cordination system also possible this way
+
+                000
+            
+            */
+        }
+
     },
     
 }
@@ -314,7 +352,7 @@ console.log( ____.models.importModels( "data" ) );
     this JS document:
 
     <object>
-    |   <constructor>(property)
+       <constructor>(property)
             <function>
             <struct>(property)
                 <function>
