@@ -126,7 +126,7 @@ ____ = {
                 usually through special characters expression |*@£$$€{}
                 tied to keyboard mappings
 
-                a kernels test drive on a hardware is;
+                a kernels test drive on a hardware is;z
                 run as many mapped special character channels multiplied also known as threads
                 why special characters are reserved in programming languages CPU profiling
                 this is what became the ISO standards, later unicode
@@ -137,6 +137,13 @@ ____ = {
                 the exception to the rule is electrical egineering ISO standards, computer science yup not the same
 
                 pure ANSI streams mostly ran on BIOS level supplying hardware vendors with encrypted data pipes for their hardware drivers
+
+                browser VMs as in actual POSIX *nix system in the browser through local resources
+                which means you can prototype an operating system in the browser these days
+
+                and with browser pass keys you can store them on USB sticks with key, plug and play
+
+                however that's slightly lazy, how many layers of unicode can we ship?
                 
             */
 
@@ -275,6 +282,11 @@ ____ = {
             AI from there mutate functions into strict functions scopes and cells
 
             optionally use SSD drives as computation power
+
+            words, use rainbow table and dictionary with functions collision
+            find word freqency wave length create binary of that
+
+            the rest is just factual data sets and bias correction
 
 
          */
