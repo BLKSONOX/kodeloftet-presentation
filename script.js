@@ -12,6 +12,9 @@
 
     bind method usually used to extend
 
+    Rule of thumb, program according to WAP weight standards
+    https://en.wikipedia.org/wiki/Wireless_Application_Protocol
+
     Author Bendikt Martin Myklebust 
 
 
@@ -50,6 +53,7 @@ ____ = {
 
     
     /* why not objects? binding tree unsets, just like C, two types of arrays in C [] and {} */
+    
     bindingTree: new Array,
 
     
@@ -90,7 +94,8 @@ ____ = {
             /* Private object nest until code ran and returned */
             eventObject = {}
 
-            /* Public 
+            /* Public */
+            /* 
                 eventObject = {} 
                 return eventObject
             */
@@ -107,7 +112,7 @@ ____ = {
 
             /* 
                 This entire function can be additionally scoped in strictly typed and mutated in loosley typed
-                which means you can change the obects state of private, public, static, protected and package
+                which means you can change the obects state of private, public, static, protected. and package
                 within the object itself which is more handy then documented in language references
 
                 regular mistake of the API developers, they don't treat private, public, static, protected and package
@@ -115,8 +120,7 @@ ____ = {
             
             */
 
-
-           /* 
+            /* 
                 How an operating system kernel is made, and how it's routed 
 
                 usually through special characters expression |*@£$$€{}
@@ -135,8 +139,9 @@ ____ = {
                 pure ANSI streams mostly ran on BIOS level supplying hardware vendors with encrypted data pipes for their hardware drivers
                 
             */
-           
+
             /* Event rotational objects and functions */
+
 
 
         },
@@ -148,10 +153,10 @@ ____ = {
         
     },
 
-
+    
 
     /* 
-        Substruct Ecample, loosley typed
+        Substruct Example, loosley typed
     */
     models: { 
         
@@ -189,7 +194,7 @@ ____ = {
                     break;
             }
         },
-        exportModels: function(){
+        exportModels: function( _type ){
 
         },
 
@@ -255,6 +260,7 @@ ____ = {
     */
     hexStream:{
         /* 
+
             assemblers example address 0x000000000 this address means something, assembly of that address is just signal and pointers similarly to C itself
             in JavaScript it's both undefined functions and prototype functions
 
@@ -263,12 +269,22 @@ ____ = {
 
             this section is the equivlent to top
 
+            3D, polygon extrapolation by memory address 0x000000000
+            link memory addresses with CPU threads
+
+            AI from there mutate functions into strict functions scopes and cells
+
+            optionally use SSD drives as computation power
+
+
          */
     },
     
 }
+
+/* How a linux or unix bootstrap loader would look like */
 console.log( ____.exec.subobject_() );
-console.log(____.models.importModels( "data" ) );
+console.log( ____.models.importModels( "data" ) );
 
 /* add return nesting, allows for private and public chain link class constructors */
 /* From here events and callback loops are very straight forward */
@@ -361,5 +377,4 @@ console.log(____.models.importModels( "data" ) );
     all the same with Java which also has more of a sibling connection to C++ in regards to C
 
     */
-
-    /* new text  */
+    /* test */
