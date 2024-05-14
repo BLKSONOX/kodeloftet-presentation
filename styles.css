@@ -21,3 +21,83 @@ body {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 100vh;
 }
+
+
+/* Sections */
+section#family{
+  background-color: #0E1424;
+  display: grid;
+  align-items: end;
+  padding: 40px;
+}
+section#travels{
+  background-color: #141E38;
+  display: grid;
+  align-items: center;
+
+}
+
+/* colours */
+
+
+
+/* Navigation Layout struct */
+
+/* Hide list with align items last first decendant */
+/* Manual sort operations */
+
+
+section#travels ul li, section#travels ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+section#travels ul{
+  display: grid; grid-template-areas: "list-col";
+  width: 100%; height:100%;
+  
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/* one element focus, to later replicate into usable classes list active and hover css shuffle as well as CSS fullscreen content on press, or modal box*/
+/* TODO look more at CSS nesting may make it possible to sequentially change parent behaviour  */
+/* Doing CSS with content manipulation and less in document reminds of LATEX, possible to create template layout behaviour without javascript  */
+
+section#travels ul#steps > li#enter{grid-area: list-col; width: 330px; height: 330px; display: none; background-color: #11192F;}
+section#travels ul#steps > li#enter{ display: block}
+section#travels ul#steps > li#enter > ul#kingdoms{display: none;}
+section#travels ul#steps > li#enter:hover ul#kingdoms{ margin: 0px; display: block; }
+
+section#travels ul#steps > li#enter > ul#kingdoms > li{width: 330px; height: 330px; }
+
+section#travels ul#steps > li#enter > ul#kingdoms >  li:hover { background-color: #FF3939;}
+
+section#travels ul#steps > li#enter > ul#kingdoms{}
+section#travels ul#steps > li#enter > ul#kingdoms >  li > a{  padding-top: 40px; width: 330px; height: 330px; display: none; background-color: #11192F;  animation: fadeIn 300ms;  }
+section#travels ul#steps > li#enter > ul#kingdoms >  li a.hide {display: none;}
+
+/* Animation ghosting box */
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active{background-color: #0A0F1F; pointer-events:  bounding-box;}
+
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active a{ display: block; text-align: center; width:100vh; height: 100vh; position: absolute; top:0px; }
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active a img{ display: block; position: unset; width: 500px;}
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active a:after{content:attr(desc);}
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active a:before{ content:attr(alt);}
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active h1{ text-align: left;}
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active h1:hover{ background-color: #000; text-align: left;}
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active h2{ text-align: left;}
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active h2:hover{ background-color: #000;}
+
+/* Article grids and template formating */
+section#travels ul#steps > li#enter > ul#kingdoms >  li:active a > article{
+  display: grid;
+  width: 100%;
+  height: 90%;
+
+
+}
+
+/* Add # later, experimental take without links */
