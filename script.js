@@ -324,8 +324,32 @@ ____ = {
                 XYZ cordination system also possible this way
 
                 000
+                
+                octal (221) into decimal()
+
+                2x8 2x8 1x8
+
+                3D graphics, in what space does an octal live 8
+
+                Same space as a triangle
+                numbers inside numbers how many threes and fours are inside of an octal
+
+                etc 
+
+                additional assembly and command resources;
+                https://docs.kernel.org/bpf/standardization/instruction-set.html#bpf-instruction-set-architecture-isa
+
+                primitives:
+                a pointer is a circle, hex stream of that circle is the primitives created from
+
+                time functions are pointers which means the primitives created are usable data structures
+
+                yep it's all rudimentary math
+
             
             */
+
+            return Math.floor(Date.now() / 1000)
         }
 
     },
