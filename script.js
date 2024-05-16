@@ -191,6 +191,7 @@ ____ = {
         /* public functions, getters and setter */
 
         importModels: function( _type ){
+            /* create JavaScript or JSON models for messages */
             switch(_type){
                 case "data":
                     return "this is a data import";
@@ -202,7 +203,16 @@ ____ = {
         },
         exportModels: function( _type ){
 
-        },
+            /* create JavaScript or JSON models for messages */
+            switch(_type){
+                case "data":
+                    return "this is a data import";
+                    break;
+                case "document":
+                    return "this is a document model import";
+                    break;
+            }
+        }
 
     },
 
@@ -357,6 +367,56 @@ ____ = {
         }
 
     },
+
+    /* 
+        
+        in operating systems this would be how one would design a systems stack layer and sub layers 
+        the kernel routes according to modulated movement of the system itself
+
+        academic investigative article about this
+
+        https://papers.freebsd.org/2018/FOSDEM/spinellis-unix_architecture_evolution.files/handouts_v3.pdf
+
+    */
+    controller: {
+        _(){
+
+        },
+        /* 
+            With one JavaScript document you can create anchor points to the URI's in links
+            those anchor points can change the output of and the read of the document
+
+            which technically means you don't need the stylesheet document
+            how webpages was initially created with C at CERN
+            and how it was additionally supplied with a scripting language JavaScript to modulate
+
+            The WEB API's are mostly just javascript Object of its default behavior
+            yep, even canvas 
+
+            it's a closed system, which is why people are retaliating
+            ECMA's document standards are written for modernity of allowance in doing this fully with the DOM, which it initially does
+            it's not a sepparate frame window inside of written in C or C++
+
+            They have a BETA of that now in 2024
+
+            older browsers had defined in their standard javascript library
+            regular OpenGL functions
+
+            WebGL is now used, however you can still achive very much the same draws
+            width document draws
+
+            the discussion; "can neither confirm or deny"
+
+            the clue is in the Hex Genration and representaiton of images; bitmaps, png, jpg
+
+            
+
+
+        */
+        compose: function( _structure = Object ){
+
+        }
+    }
     
 }
 
