@@ -339,7 +339,7 @@ ____ = {
 
                 Elementary and advanced Algebra
 
-                in the first is moves to in the 1.5 according to numberpositions and composition of 
+                in the first is moved to in the 1.5 according to numberpositions and composition of 
                 the whole mathemathical equation
 
                 exponentes are still number tables and positional points
@@ -349,7 +349,16 @@ ____ = {
 
                 1x8(2) + 2x8(1) + 1x8(0) ------ number rows in reverse, in the upper (0), (1.5), (2) ~ 8(0), 16(1.5), 8(2) ~~ 8, 24, 16 ~~ 24 hyperbola /\ (row repeats four times) 0240
 
+                equal to is itself a row of itself correctly expressed in octal, decimal and in hexadecimal
+
                 24+24+24+24
+                0.00024
+
+                in regular computer science instruction sets you shift between mathematical expressed rows as decimal points
+
+                also known as correct pointer sets
+                the whole number would be the new octal base
+
 
                 ---------------------------
                 math need to express: 1,2,4,6,8,16,24,32,64 and more bits
