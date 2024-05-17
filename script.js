@@ -349,6 +349,8 @@ ____ = {
 
                 1x8(2) + 2x8(1) + 1x8(0) ------ number rows in reverse, in the upper (0), (1.5), (2) ~ 8(0), 16(1.5), 8(2) ~~ 8, 24, 16 ~~ 24 hyperbola /\ (row repeats four times) 0240
 
+                https://en.wikipedia.org/wiki/Hyperbola
+
                 equal to is itself a row of itself correctly expressed in octal, decimal and in hexadecimal
 
                 24+24+24+24
@@ -366,7 +368,7 @@ ____ = {
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
 
-                200 x 4 ~~ 800
+                200 x 4 ~~ 80+0
                 16 x 4 ~~ 24+40
 
                 864
@@ -381,6 +383,8 @@ ____ = {
                 explainer operator within math ~ one for each base number within the number expressed parted 24  ~~
                 and yes it's connected with hex representation and hexidecimals
 
+                https://en.wikipedia.org/wiki/Loop_space
+
                 in the above exponent there's a hex and hexidecimal expression missing
                 the hex set
 
@@ -390,6 +394,38 @@ ____ = {
                 the exponent creating a Matrix Exponential
 
                 https://en.wikipedia.org/wiki/Exponentiation
+
+                the hex matrix is a decimal of the exponent base
+
+                0x21
+
+                with a numeral and a litteral value expression of the decimals representing the number
+                the largest hyperbole in the exponent is ignored
+
+                0x21 points to the answer 64 as an address
+                
+                the decimal times the number slots
+                2x2 with a short exponential addition matrix of 1+2x2
+
+                giving the anwswer 46 rotate that as a circle 360 being 1
+
+                0 representing the circle
+
+                https://en.wikipedia.org/wiki/Loop_(topology)
+
+                giving the answer 64
+
+                1x64 is then a sub matrix of
+
+                hexidecimal representation would be 9 offset
+
+                10 being the start of the Litteral alphabetical sequence
+                why it's called hexidecimal
+
+                the enumering of the sequence continues and is used as decimals in exponents
+
+                this backtracking of an online tutorial found follows all mathematical laws
+                and is possible to write as regex expression pattern
 
                 ---------------------------
                 math need to express: 1,2,4,6,8,16,24,32,64 and more bits
