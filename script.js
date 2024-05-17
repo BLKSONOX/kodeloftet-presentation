@@ -359,6 +359,37 @@ ____ = {
                 also known as correct pointer sets
                 the whole number would be the new octal base
 
+                Exponent equation of the whole set would be 24x24x24x24
+
+                24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
+                24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
+                24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
+                24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
+
+                200 x 4 ~~ 800
+                16 x 4 ~~ 24+40
+
+                864
+
+                correct way of using Exponents, parting up the number base to multiply in a set
+                differential equation is just substraction of
+
+                after set is introduced
+
+                inside the addition operation all operations are allowed
+
+                explainer operator within math ~ one for each base number within the number expressed parted 24  ~~
+                and yes it's connected with hex representation and hexidecimals
+
+                in the above exponent there's a hex and hexidecimal expression missing
+                the hex set
+
+                the expression would be to the whole expresional set
+                8(3) 6(2) 4(1)
+
+                the exponent creating a Matrix Exponential
+
+                https://en.wikipedia.org/wiki/Exponentiation
 
                 ---------------------------
                 math need to express: 1,2,4,6,8,16,24,32,64 and more bits
