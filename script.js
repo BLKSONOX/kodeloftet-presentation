@@ -509,9 +509,11 @@ ____ = {
 
                 ---------------------------
                 
-                1x64   + 2x8    + 1x1    
-                64     + 16     + 1
-                81
+                | 1x64 |   + 2x8    + 1x1    
+                    64     + 16     + 1
+                    81
+
+                https://en.wikipedia.org/wiki/Loop_group
 
 
                 3D graphics, in what space does an octal live 8
