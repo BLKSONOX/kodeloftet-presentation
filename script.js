@@ -347,7 +347,12 @@ ____ = {
 
                 flipping is also allowed within the expressional equation set
 
-                1x8(2) + 2x8(1) + 1x8(0) ------ number rows in reverse, in the upper (0), (1.5), (2) ~ 8(0), 16(1.5), 8(2) ~~ 8, 24, 16 ~~ 24 hyperbola /\ (row repeats four times) 0240
+                1x8(2) + 2x8(1) + 1x8(0) ------ number rows in reverse, in the upper 
+                (0), (1.5), (2) ~ 8(0), 16(1.5), 8(2) ~~ 8, 24, 16 ~~ 24 hyperbola /\ (row repeats four times) 0 24 0
+
+                https://en.wikipedia.org/wiki/Compact-open_topology C(X,Y)
+
+                Directly natural transformation towards hyperbola 
 
                 https://en.wikipedia.org/wiki/Hyperbola
 
@@ -367,6 +372,14 @@ ____ = {
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
+
+                Find N find XYZ
+                natural transformation
+
+                https://en.wikipedia.org/wiki/Natural_transformation
+
+                operators can be used as se fit throughout the entirety of the set
+                to create a new base
 
                 200 x 4 ~~ 80+0
                 16 x 4 ~~ 24+40
@@ -400,7 +413,7 @@ ____ = {
                 0x21
 
                 with a numeral and a litteral value expression of the decimals representing the number
-                the largest hyperbole in the exponent is ignored
+                the largest hyperbola in the exponent is ignored
 
                 0x21 points to the answer 64 as an address
                 
