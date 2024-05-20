@@ -15,7 +15,13 @@
     Rule of thumb, program according to WAP weight standards
     https://en.wikipedia.org/wiki/Wireless_Application_Protocol
 
-    Author Bendikt Martin Myklebust 
+    possible JS Engines
+    https://github.com/facebook/hermes/blob/main/README.md
+    https://en.wikipedia.org/wiki/GNU_Guile
+
+    "Guile includes compiler front-ends for ECMAScript"
+
+    Document Author Bendikt Martin Myklebust 
 
 
   */
@@ -52,7 +58,12 @@ ____ = {
     */
 
     
-    /* why not objects? binding tree unsets, just like C, two types of arrays in C [] and {} */
+    /* 
+        why not objects? binding tree unsets, just like C, two types of arrays in C [] and {}
+        also possible to handle Event handling and binding with POSIX threads
+        https://en.wikipedia.org/wiki/Pthreads#Example
+    
+    */
     
     bindingTree: new Array,
 
@@ -319,7 +330,7 @@ ____ = {
 
                 Octal, Decimal, Hexidecimal
 
-                RGB channels, can add and have more cuncurrent channel spaces
+                RGB channels, can add and have more cuncurrent channel spaces1
                 also sub channels
 
                 how TTY channels are made i suspect
