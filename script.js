@@ -22,6 +22,7 @@
     "Guile includes compiler front-ends for ECMAScript"
 
     Document Author Bendikt Martin Myklebust 
+    The sun may shine, hower this is stil work to be done
 
 
   */
